@@ -14,7 +14,7 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: inmoya/cicd_guestbook:20230512173443_2
+      - image: inmoya/cicd_guestbook:20230512174446_3
         name: sb-guestbook
         envFrom:
         - configMapRef:
